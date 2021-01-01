@@ -1,0 +1,12 @@
+name: down
+version: 0.0.1
+author: <ggdream gdream@yeah.net>
+description: my new project.
+repository: github.com/ggdream/down
+env: go1.15.5-windows/amd64
+target:
+- windows/amd64
+scripts:
+    test: go test -v ./...
+    build: go build
+packages: {}
